@@ -1,0 +1,42 @@
+(footprint "J_Solder_Bridge_2" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a684ce32-5f73-45af-9649-521f87b2b61e)
+  )
+  (fp_text value "SolderJumper-2" (at 0 3.85 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 77ea8a76-8b58-4a2e-ac22-2298a8048f1f)
+  )
+  (pad "1" smd custom (at -0.525 0 90) (size 1.5 0.75) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_width 0.508) (thermal_bridge_angle 45) (thermal_gap 0.1875)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center 0.5 -0.375) (end 0.75 -0.375) (width 0) (fill yes))
+      (gr_circle (center -0.5 -0.375) (end -0.25 -0.375) (width 0) (fill yes))
+      (gr_poly
+        (pts
+          (xy 0.5 0)
+          (xy -0.5 0)
+          (xy -0.5 -0.625)
+          (xy 0.5 -0.625)
+        )
+        (width 0) (fill yes))
+    ) (tstamp a8991e3a-dd49-493b-9ff3-894f2c101b4f))
+  (pad "2" smd custom (at 0.525 0 270) (size 1.5 0.75) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_width 0.508) (thermal_bridge_angle 45) (thermal_gap 0.1875)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center 0.5 -0.375) (end 0.75 -0.375) (width 0) (fill yes))
+      (gr_circle (center -0.5 -0.375) (end -0.25 -0.375) (width 0) (fill yes))
+      (gr_poly
+        (pts
+          (xy 0.5 0)
+          (xy -0.5 0)
+          (xy -0.5 -0.625)
+          (xy 0.5 -0.625)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 15f94c9b-0599-4e88-8c84-8051a6d08a09))
+)

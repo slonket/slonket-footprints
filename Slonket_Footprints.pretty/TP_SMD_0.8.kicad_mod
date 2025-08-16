@@ -1,0 +1,15 @@
+(footprint "TP_SMD_0.8" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 90a17491-75b0-4c20-832e-e9c9f3342815)
+  )
+  (fp_text value "TP_SMD_0.8" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7db6e4d8-1d05-4041-ab43-82c54d493f03)
+  )
+  (fp_circle (center 0 0) (end 0 -0.4)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 37473ee0-050c-45a6-8004-b38be59cc1dd))
+  (pad "1" smd circle (at 0 0) (size 0.8 0.8) (layers "F.Cu" "F.Mask") (tstamp 32c63f98-319f-42ee-aab6-b34f6a6d092b))
+)

@@ -1,0 +1,16 @@
+(footprint "J_Pad_2_T15" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0.05 -14.6 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dbe385c6-e91f-43c7-a63d-4da8ea5e8e89)
+  )
+  (fp_text value "Pad_2_T15" (at 0 3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4eea8901-693e-4bab-9813-6b166be4ff8f)
+  )
+  (pad "1" smd roundrect (at -1.25 0 180) (size 1.5 3.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_width 0.5) (thermal_gap 0.3) (tstamp 1b654861-7ad0-46cd-9511-c3764485ff3d))
+  (pad "2" smd roundrect (at 1.25 0 180) (size 1.5 3.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
+    (zone_connect 1) (thermal_bridge_width 0.5) (thermal_gap 0.3) (tstamp bd72c5fa-1dbb-45a7-a8cc-b54e08de1542))
+)
