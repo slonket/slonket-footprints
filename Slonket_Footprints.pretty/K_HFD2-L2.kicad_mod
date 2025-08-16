@@ -27,7 +27,7 @@
   (pad "13" thru_hole circle (at -1.27 -3.81) (size 1.4 1.4) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 852aa4b7-a774-4857-bf0f-de43592979b7))
   (pad "15" thru_hole circle (at -6.35 -3.81) (size 1.4 1.4) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 211eb49c-42d6-4450-bd63-3c9341f7dd80))
   (pad "16" thru_hole circle (at -8.89 -3.81) (size 1.4 1.4) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 627b88da-cdf6-4dfb-b4c4-0c5b470d073d))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/HFD2_L2.step"
+  (model "../3D_models/HFD2_L2.step"
     (offset (xyz 0 0 10.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

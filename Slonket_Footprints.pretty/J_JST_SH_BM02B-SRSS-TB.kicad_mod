@@ -47,7 +47,7 @@
     (thermal_bridge_angle 45) (tstamp 103903fe-b8b4-4824-a6e9-cc5e2d40b985))
   (pad "MP" smd rect (at 1.8 -1.1 90) (size 1.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 6f6d3ae8-b35e-4147-ac73-271bc895a654))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/JST_BM02B-SRSS-TB.step"
+  (model "../3D_models/JST_BM02B-SRSS-TB.step"
     (offset (xyz 0 1.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

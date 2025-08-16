@@ -39,7 +39,7 @@
   (pad "4" smd roundrect (at -0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0)
     (chamfer_ratio 0.2) (chamfer bottom_right)
     (thermal_bridge_angle 45) (tstamp 7670e24d-8de1-461c-9ee5-1683bcad0b6e))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/Y_SMD_2016.step"
+  (model "../3D_models/Y_SMD_2016.step"
     (offset (xyz 0 0 0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))

@@ -45,7 +45,7 @@
     (thermal_bridge_angle 45) (tstamp 6dcbe98a-58d1-40ae-a442-2f6dd0171c01))
   (pad "10" smd rect (at -5.08 -4.75) (size 1 2.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 1faeec7b-c00a-41c2-8320-f34bf233dc38))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/TQ2SA.step"
+  (model "../3D_models/TQ2SA.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

@@ -37,7 +37,7 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp cf57170f-7dc6-4e13-a22c-70b0cd682ab4))
   (pad "1" thru_hole circle (at -1.905 0) (size 2.3 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 36a4c89b-a057-48b3-91cd-88795f2bc610))
   (pad "2" thru_hole circle (at 1.905 0) (size 2.3 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 7f14ef3d-c4c4-4929-9bd9-6495996de66f))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/DB125-3.81-2P.step"
+  (model "../3D_models/DB125-3.81-2P.step"
     (offset (xyz -1.905 -2.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

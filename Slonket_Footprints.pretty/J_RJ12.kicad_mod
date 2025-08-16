@@ -29,7 +29,7 @@
   (pad "4" thru_hole circle (at -0.5 -1.8) (size 1.5 1.5) (drill 0.75) (layers "*.Cu" "*.Mask") (tstamp 7dfdbb36-938e-4367-800e-33c0ba31086e))
   (pad "5" thru_hole circle (at -1.5 -4.35) (size 1.5 1.5) (drill 0.75) (layers "*.Cu" "*.Mask") (tstamp 7133f35a-eafb-4f2e-a999-a46e9dea4679))
   (pad "6" thru_hole circle (at -2.5 -1.8) (size 1.5 1.5) (drill 0.75) (layers "*.Cu" "*.Mask") (tstamp 55fc3a75-b4fd-4800-82b1-ecbe7c55612a))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/RJ12.step"
+  (model "../3D_models/3d_models/RJ12.step"
     (offset (xyz 0 0.025 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

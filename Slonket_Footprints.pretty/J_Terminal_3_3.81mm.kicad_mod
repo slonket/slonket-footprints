@@ -38,7 +38,7 @@
   (pad "1" thru_hole circle (at -3.81 0) (size 2.3 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp e3619a90-72ef-4d3f-9ac7-367384966d67))
   (pad "2" thru_hole circle (at 0 0) (size 2.3 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 851e35b4-631f-4d1c-94f9-3259a5dc0d5b))
   (pad "3" thru_hole circle (at 3.81 0) (size 2.3 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 2eb85970-bc32-42d4-afd8-d57267645a28))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/DB125-3.81-3P.step"
+  (model "../3D_models/DB125-3.81-3P.step"
     (offset (xyz -3.81 -2.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

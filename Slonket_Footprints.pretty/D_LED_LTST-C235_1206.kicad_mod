@@ -148,7 +148,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp f8a20781-f557-4e55-b938-9ba081e03130))
-  (model "${KIPRJMOD}/../../__common/kicad_library/3d_models/LTST-C235.STEP"
+  (model "../3D_models/LTST-C235.STEP"
     (offset (xyz 0 0 0.27))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))

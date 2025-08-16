@@ -113,7 +113,7 @@
   (pad "8" smd roundrect (at -3.8 -4.3 90) (size 1.2 0.8) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
     (chamfer_ratio 0.25) (chamfer top_left bottom_left)
     (thermal_bridge_width 0.25) (thermal_gap 0.25) (tstamp f03926f1-589f-4bcd-92f9-ad552b02e11d))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/G6K_2F_Y.step"
+  (model "../3D_models/G6K_2F_Y.step"
     (offset (xyz -3.8 0 -1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

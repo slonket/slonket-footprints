@@ -36,7 +36,7 @@
   (pad "1" smd rect (at 1.8 1 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1c7d519b-2184-4c4a-928f-85d82585ba41))
   (pad "2" smd rect (at -1.45 0 180) (size 1.5 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 76bb82ca-d529-43ca-a274-b275af1919a6))
   (pad "3" smd rect (at 1.8 -1 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0de44ca9-b4e8-438f-8a9f-f2bd4a2f2419))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/TC33X.step"
+  (model "../3D_models/TC33X.step"
     (offset (xyz 0.1 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

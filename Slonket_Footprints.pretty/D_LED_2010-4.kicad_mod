@@ -39,7 +39,7 @@
     (thermal_bridge_angle 45) (tstamp 9ee55135-f659-44ed-a1a3-0c0c7789ff0f))
   (pad "4" smd rect (at 1 0.275) (size 0.5 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 418a2bcd-777c-46fa-972f-f98ec7f4269f))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/LED2010-4.step"
+  (model "../3D_models/LED2010-4.step"
     (offset (xyz 0 -0.475 0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

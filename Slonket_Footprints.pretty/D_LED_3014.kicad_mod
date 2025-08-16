@@ -63,7 +63,7 @@
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.Fab") (tstamp 53151d47-6f4b-4a8e-a3c2-5419343b9c82))
   (pad "1" smd rect (at 0.75 0 270) (size 1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b8bc71b5-3733-4b23-b55d-67aaeb08448c))
   (pad "2" smd rect (at -1.099999 0 270) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84aed816-40c1-41b7-897a-97c278140862))
-  (model "/Users/avawolfe/Documents/Electronics/decoder/__common/kicad_library/3d_models/D_LED_3014.step"
+  (model "../3D_models/D_LED_3014.step"
     (offset (xyz -0.075 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
