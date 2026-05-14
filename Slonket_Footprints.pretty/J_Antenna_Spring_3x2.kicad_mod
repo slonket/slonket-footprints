@@ -1,0 +1,99 @@
+(footprint "J_Antenna_Spring_3x2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7020f84d-a9dc-414a-9c0e-7e158082a7e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "J_Antenna_Spring_3x2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c10a455-399b-4001-a348-9d02c54fae88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78bf2cf8-fd60-45d5-9946-7c62d2ea8f0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba133cf6-57cb-4569-a3f4-ad7e573acd9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.75 -1.25)
+		(end 1.75 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "64469889-4d5b-4e4f-a355-e906066967d9")
+	)
+	(fp_rect
+		(start -1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bbce9e5e-9ffe-4261-a8bc-2ca2487ab604")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "05ce8b62-6e5c-4135-abd5-63e481fc3cc7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.2 0)
+		(size 2.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3ea494a-f003-41d5-8f23-cb69a3050fe1")
+	)
+	(embedded_fonts no)
+)

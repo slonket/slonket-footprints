@@ -1,42 +1,158 @@
-(footprint "J_Solder_Bridge_2" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -2.2 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a684ce32-5f73-45af-9649-521f87b2b61e)
-  )
-  (fp_text value "SolderJumper-2" (at 0 3.85 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 77ea8a76-8b58-4a2e-ac22-2298a8048f1f)
-  )
-  (pad "1" smd custom (at -0.525 0 90) (size 1.5 0.75) (layers "F.Cu" "F.Mask")
-    (thermal_bridge_width 0.508) (thermal_bridge_angle 45) (thermal_gap 0.1875)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_circle (center 0.5 -0.375) (end 0.75 -0.375) (width 0) (fill yes))
-      (gr_circle (center -0.5 -0.375) (end -0.25 -0.375) (width 0) (fill yes))
-      (gr_poly
-        (pts
-          (xy 0.5 0)
-          (xy -0.5 0)
-          (xy -0.5 -0.625)
-          (xy 0.5 -0.625)
-        )
-        (width 0) (fill yes))
-    ) (tstamp a8991e3a-dd49-493b-9ff3-894f2c101b4f))
-  (pad "2" smd custom (at 0.525 0 270) (size 1.5 0.75) (layers "F.Cu" "F.Mask")
-    (thermal_bridge_width 0.508) (thermal_bridge_angle 45) (thermal_gap 0.1875)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_circle (center 0.5 -0.375) (end 0.75 -0.375) (width 0) (fill yes))
-      (gr_circle (center -0.5 -0.375) (end -0.25 -0.375) (width 0) (fill yes))
-      (gr_poly
-        (pts
-          (xy 0.5 0)
-          (xy -0.5 0)
-          (xy -0.5 -0.625)
-          (xy 0.5 -0.625)
-        )
-        (width 0) (fill yes))
-    ) (tstamp 15f94c9b-0599-4e88-8c84-8051a6d08a09))
+(footprint "J_Solder_Bridge_2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "961c9e3b-ce8f-445d-b83d-1ad5ff686bbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2"
+		(at 0 3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4800c84-3c9f-463d-94d5-64f9353710ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2454e17-5c6f-43b4-aab9-68a3605fc5b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55c2b340-f584-4604-af71-364862cc2279")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.4 -1)
+		(end 1.4 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "80cd24e1-7dc4-4aa5-a8ad-544aff948464")
+	)
+	(fp_rect
+		(start -1.15 -0.75)
+		(end 1.15 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3e54f40d-c6d4-4c83-8289-4530ac8f9d6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "20df020a-de2b-46a7-be59-972d557ee275")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.525 0 90)
+		(size 1.5 0.75)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_width 0.508)
+		(thermal_bridge_angle 45)
+		(thermal_gap 0.1875)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center 0.5 -0.375)
+				(end 0.75 -0.375)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center -0.5 -0.375)
+				(end -0.25 -0.375)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.5 0) (xy -0.5 0) (xy -0.5 -0.625) (xy 0.5 -0.625)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "836b6486-d310-4014-8895-44e63fb97cb5")
+	)
+	(pad "2" smd custom
+		(at 0.525 0 270)
+		(size 1.5 0.75)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_width 0.508)
+		(thermal_bridge_angle 45)
+		(thermal_gap 0.1875)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center 0.5 -0.375)
+				(end 0.75 -0.375)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center -0.5 -0.375)
+				(end -0.25 -0.375)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.5 0) (xy -0.5 0) (xy -0.5 -0.625) (xy 0.5 -0.625)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8abc4d26-da24-4e95-a49b-3bcb11c1d6ea")
+	)
+	(embedded_fonts no)
 )
